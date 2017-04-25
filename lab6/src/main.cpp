@@ -8,8 +8,8 @@ using namespace std;
 
 int main()
 {
-    unsigned int ilosc_powtorzen=ILOSC_POWTORZEN;
-    unsigned int rozmiar_problemu=ROZMIAR_PROBLEMU;
+    unsigned int ilosc_powtorzen = ILOSC_POWTORZEN;
+    unsigned int rozmiar_problemu = ROZMIAR_PROBLEMU;
     czas t;
     table obj;
     t.wykonaj_algorytm(ilosc_powtorzen, obj, rozmiar_problemu);
