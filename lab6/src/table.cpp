@@ -15,29 +15,17 @@ table::table()
  
     for (int i = 1 ; i <= rozmiar ; i++)
     {
-        tab[i]=(rand()%50)+1;
+        //tab[i] = (rand()%50)+1;
         //tab[i] = i+1;
-       // tab[i] = (rozmiar-i); 
+        tab[i] = (rozmiar-i); 
     }
 }
 
 void table::wykonaj(int rozmiar_problemu)
 {
-    for (int i=1;i<=rozmiar;i++)
-    {
-        cout<<tab[i] << " ";
-    }
-
-    cout << endl;
-
+   
     sort (tab,rozmiar);
  
-    for (int i=1;i<=rozmiar;i++)
-    {
-        cout<<tab[i] << " ";
-    }
-
-    cout << endl;
 }
 
  string table::przedstaw_sie()
@@ -45,7 +33,6 @@ void table::wykonaj(int rozmiar_problemu)
 	string nazwa="sortowanie kopcowe";
 	return nazwa;
 }
-
 
 void table::heapify (int *tab, int heap_size, int i)
 {

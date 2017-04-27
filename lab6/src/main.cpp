@@ -4,7 +4,7 @@
 using namespace std;
 
 #define ILOSC_POWTORZEN 1
-#define ROZMIAR_PROBLEMU 10
+#define ROZMIAR_PROBLEMU 1
 
 int main()
 {

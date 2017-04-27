@@ -12,7 +12,6 @@ public:
 
 	virtual void wykonaj(int rozmiar_problemu);
 	virtual string przedstaw_sie();
-	
 
  	void heapify (int *tab, int heap_size, int i);
     void budkop(int *tab, int rozmiar);
